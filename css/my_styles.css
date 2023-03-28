@@ -34,4 +34,24 @@ a{
 .social-icons .social-icon:hover{
     background-color: var(--bs-secondary);
 }
-   
+
+li{
+    list-style-type: disc;
+    background: color #add8e6;
+    list-style-position:inside;
+}
+li:nth-child(even){
+    background: color #8fbc8b;
+}
+
+dt {
+    font-size:150%
+}
+dd{
+    color:#495057;
+}
+
+table{
+    width: 60%
+    margin: 0 auto;
+}

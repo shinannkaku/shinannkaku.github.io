@@ -29,7 +29,7 @@ text-transform: none;
     color: var(--bs-secondary);    
 }
 a{
-    color; var(--bs-primary);
+    color: var(--bs-primary);
 }
 .social-icons .social-icon:hover{
     background-color: var(--bs-secondary);
@@ -52,6 +52,16 @@ dd{
 }
 
 table{
-    width: 60%
+    width: 60%;
     margin: 0 auto;
 }
+ol>li:hover {
+   background-color: #d9ccef;
+}
+
+
+
+
+
+
+

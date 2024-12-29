@@ -20,6 +20,38 @@
         <link href="css/my_styles.css" rel="stylesheet" />
     
     </head>
+
+    <style>
+        .chat-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .input-section {
+            display: flex;
+            gap: 10px;
+        }
+        .message-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .send-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .send-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -31,6 +63,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#chatbot">Chatbot</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
@@ -55,8 +88,8 @@
                         <a href="mailto:name@email.com">shinannkaku@gmail.com</a>
 
                     </div>
-                    <p class="lead mb-5">我對網頁設計有興趣。</p>
-                    <p class="lead mb-5">I'm interest to Web design.</p>
+                    <p class="lead mb-5">我很喜歡這麼一句話</p>
+                    <p class="lead mb-5">Recall my past, embrace the spring with me.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/%E5%B9%B8%E5%AE%89-%E9%83%AD-714a75269/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://shinannkaku.github.io/"><i class="fab fa-github"></i></a>
@@ -67,15 +100,29 @@
                 </div>
             </section>
             <hr class="m-0" />
+            
+            <!--Chatbot-->
+            <div class="chat-container" id="chatbot">
+                <h3 class="text-center">可以跟chatbot聊天哦</h3>
+                <div class="input-section">
+                    <input type="text" class="message-input" placeholder="請輸入訊息...">
+                    <button class="send-button">發送</button>
+                </div>
+            </div>
+            <hr class="m-0" />
+
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>            
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">參加比賽</h3>
+                            <h3 class="mb-0">參加活動&比賽</h3>
                             <div class="subheading mb-3">在世新大學求學階段</div>
-                            <p>參加2023展昭盃初賽</p>
+                            <p>2023Chao SMART展昭行銷盃MICE創意行銷競賽初賽</p>
+                            <p>2023Chao SMART展昭行銷盃MICE創意行銷競賽決賽</p>
+                            <p>2024火星控股創星計畫</p>
+                            <p>113南山菁英領袖夢想金</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2022 - Present</span></div>
                     </div>
@@ -103,6 +150,8 @@
                             <h3 class="mb-0">熱愛追星</h3>
                             <div class="subheading mb-3">日韓團</div>
                             <p>被同學推薦轉而熱愛</p>
+                            <p>太過瘋狂2024跑去演唱會站了兩天VIP</p>
+                            <p>太喜歡看人家跳舞看到跑去跳了hip hop</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2022 - Present </span></div>
                     </div>
@@ -120,7 +169,7 @@
                             </h3>
                             <div class="subheading mb-3">Department of Information and Communications</div>
                             <div>資訊傳播學系</div>
-                            <p>一年甲班</p>
+                            <p>三年甲班</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2022 - June 2026</span></div>
                     </div>
@@ -203,7 +252,7 @@
                             <tr class="table-primary">
                                 <th>高中作品集</th>
                             <tr>                                
-                               <td><a target="_blank" a href="https://drive.google.com/drive/folders/11YXBOq6EDp1eOppjQHFkESZqbOxrg7n2?usp=share_link" ></a>《模擬聯合國社作品集》 </td>                                                 
+                               <td><a target="_blank" a href="" ></a>《模擬聯合國社作品集》 </td>                                                 
                                <td>2019~2021</td>
                                
 
@@ -211,12 +260,12 @@
                                
                             </tr>
                             <tr>
-                               <td><a target="_blank" a href="https://drive.google.com/drive/folders/1xIqtmy_OcPkLLvbPXCWxLtHvnecGK14g?usp=share_link">《國共內戰後小島重生：龜山區》</a></td>
+                               <td><a target="_blank" a href=""></a>《國共內戰後小島重生：龜山區》</td>
                                <td>2020</td>
                                
                             </tr>
                             <tr>
-                                <td><a target="_blank" a href="https://drive.google.com/drive/folders/15IX5XacuzyclOTS3Z-lqjbfEMMtyVbqs?usp=share_link">《淺談中美貿易戰》</a></td>
+                                <td><a target="_blank" a href=""></a>《淺談中美貿易戰》</td>
                                 <td>2021</td>
                                 
                              </tr>
@@ -226,7 +275,23 @@
                             <tr>
                                <td>CHAO SMART展昭行銷盃MICE創意行銷競賽</td>
                                <td>2023</td>
-                         
+                            </tr>
+                            <tr>
+                                <td>Web design-Game</td>
+                                <td>2023</td>
+                             </tr>
+                             <tr>
+                                <td>CHAO SMART展昭行銷盃MICE創意行銷競賽</td>
+                                <td>2023</td>
+                             </tr>
+                            <tr>
+                               <td>2024火星控股創星計畫</td>
+                               <td>2024</td>
+                            </tr>
+                            <tr>
+                               <td>113南山菁英領袖夢想金</td>
+                               <td>2024</td>
+                            </tr>
                          </table>                  
                 </div>
             </section>
@@ -239,6 +304,8 @@
                         <video id="my video" width="480" height="270" controls >
                         <source src="assets/img/725376878.514406.mp4" type="video/mp4">
                         </video>
+                        <p>放一個羅梅君老師課堂的自我介紹影片 有趣 拿著聳肩老師課的網站拿去羅梅君的課當自我介紹 讚</p>
+                        <p>影片內容主要是講另外一個類似遊戲論壇的網站</p>
                     </div>
                 </div>
             </section>
@@ -247,5 +314,25 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
+    <script>
+        const input = document.querySelector('.message-input');
+        const button = document.querySelector('.send-button');
+
+        function sendMessage() {
+            const message = input.value.trim();
+            if (message) {
+                console.log('發送訊息:', message);
+                input.value = '';
+            }
+        }
+
+        button.addEventListener('click', sendMessage);
+        input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
     </body>
 </html>
